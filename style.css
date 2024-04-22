@@ -5,7 +5,15 @@ body {
 button {
     background-color: #3882F6;
     color: white;
-    border-color: white;
+    border: none;
+    padding: 6px 28px;
+    font-size: 16px;
+    border-radius: 6px;
+    margin-top: 16px
+}
+
+.hero-button{
+    margin-top: 16px
 }
 
 .header {
@@ -18,7 +26,7 @@ button {
 .title {
     color: white;
     font-weight: 700;
-    font-size: 20px
+    font-size: 24px
 }
 
 ul {
@@ -30,53 +38,63 @@ ul {
 
 a {
     text-decoration: none;
-    color: #e3e3e3
-}
-
-button {
-    padding: 6px 28px;
-    font-size: 16px;
-    border-radius: 6px
+    color: #E5E7EB
 }
 
 .hero {
     display: flex;
-    padding: 64px 200px;
+    padding: 100px 200px;
     justify-content: space-between;
     align-items: center;
-    background-color: #1F2937
+    background-color: #1F2937;
+    gap: 64px
 }
 
-.two {
+.hero-title {
+    color: white;
+    font-weight: 700;
+    font-size: 48px
+}
+.hero-subtext {
+    font-size: 18px; 
+    color: #E5E7EB
+}
+
+.random-info {
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 64px;
 }
 
-.title-one {
+.info-title {
     display: flex;
     justify-content: center;
     font-weight: 700;
-    font-size: 28px;
-    margin-bottom: 16px
+    font-size: 36px;
+    margin-bottom: 16px;
+    color: #1F2937
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 32px
+    gap: 32px;
+    padding: 32px
 }
 
 .info {
     width: 200px;
     text-align: center;
     justify-items: center;
-    align-items: center
+    align-items: center;
+    color: #7f7f7f;
+    text-wrap: wrap;
+    font-size: 22px
 }
 
-.three {
+.testimonial {
     padding: 64px 300px;
     justify-content: center;
     align-items: center;
@@ -86,37 +104,50 @@ button {
 
 .quote {
     font-size: 36px;
-    font-weight: 100
+    font-weight: 100;
+    color: #1F2937
 }
 
-.name {
+.source {
     text-align: right;
     font-size: 24px;
     font-weight: 700
 }
 
-.four {
+.signup {
     display: flex;
     justify-content: center;
+    align-items: center
+}
+
+.signup-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
     align-items: center;
-    gap: 128px;
     background-color: #3882F6;
     border-radius: 8px;
-    padding: 36px;
-    margin: 48px 300px;
+    padding: 48px 100px;
+    margin: 72px 200px;
     color: #e3e3e3
 }
 
-.title-two {
+.signup-title {
     color: white;
     font-size: 24px;
     font-weight: 700;
+}
+
+.signup-button {
+    border: 2px solid white;
+    margin: 0;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 32px;
+    padding: 48px;
     background-color: #343434;
+    color: #e3e3e3
 }
